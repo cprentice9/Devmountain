@@ -15,7 +15,7 @@ reader.question("What would you like to calculate?", function(input){
 	num2 = Number(tokens[2]);
 
 
-	// This line closes the connection to the command line interface.
+	//testing This line closes the connection to the command line interface.
 	reader.close()
 
 });
