@@ -1,0 +1,41 @@
+* {
+    background-color: rgb(58, 58, 58);
+    font-family: "Comic Neue";
+}
+div {
+    color: aqua;
+    font-size: 30px;
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+    background-image: url('https://media.wired.com/photos/5e1e646743940d0008009167/master/pass/Science_Cats-84873657.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 50px;
+    align-content: center;
+    border: 10px solid aqua;
+}
+
+button {
+    background-color: aqua;
+    text-align: center;
+    width: 100px;
+    height: 24px;
+    border: 1px solid black;
+}
+
+h1 {
+    background-color: blue;
+    color: white;
+}
+
+img {
+    height: 100px;
+}
+
+div > div {
+    background-color: blueviolet;
+    height: 50%;
+    width: 50%;
+}

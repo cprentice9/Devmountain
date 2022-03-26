@@ -5,7 +5,6 @@ function mouseOverText(evt) {
 	alert("You're a cool cat!");
 }
 
-
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
