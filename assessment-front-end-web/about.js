@@ -14,5 +14,6 @@ function handleSubmit(evt) {
 
 let form = document.querySelector('form#contact');
 let catImage = document.querySelector('img#catImage')
+
 form.addEventListener('submit', handleSubmit);
 catImage.addEventListener("mouseover", mouseOverText);
