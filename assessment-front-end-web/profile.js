@@ -15,6 +15,7 @@ function ritualClick(evt) {
 	alert("Listening to Music and Coding is my Favorite Ritual");
 }
 
+
 let color = document.querySelector('button#color');
 let place = document.querySelector('button#place');
 let ritual = document.querySelector('button#ritual');
