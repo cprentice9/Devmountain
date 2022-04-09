@@ -6,9 +6,13 @@
   <body class="container">
     <button id="complimentButton">Get a compliment</button>
     <button id="fortuneButton">Read your fortune</button>
-    <button id="createOfferButton">Create Offer</button>
-    <button id="deleteOfferButton">Delete Offer</button>
-    <button id="getOfferButton">Get Offers</button>
+    <button id="toggleSword">Equip Sword</button>
+    <button id="toggleShield">Equip Shield</button>
+    <button id="toggleBow">Equip Bow</button>
+    <button id="toggleQuiver">Equip Quiver</button>
+    <button id="toggleHelmet">Equip Helmet</button>
+    <button id="getInventory">Get Inventory</button>
+    <button id="deleteInventory">Delete Inventory</button>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
@@ -32,28 +36,90 @@
       };
     </script>
     <script>
-      document.getElementById("createOfferButton").onclick = function () {
+      document.getElementById("toggleSword").onclick = function () {
         axios
-          .post("http://localhost:4000/api/offers")
+          .post("http://localhost:4000/api/inventory/toggle/sword")
           .then(function (response) {
-            alert("Offer Created");
+            if (response.data.itemEquipped === true) {
+              alert("Sword Equipped");
+              document.getElementById("toggleSword").innerText = "Remove Sword";
+            } else {
+              alert("Sword Added to Inventory");
+              document.getElementById("toggleSword").innerText = "Equip Sword";
+            }
           });
       };
-    </script>
-    <script>
-      document.getElementById("deleteOfferButton").onclick = function () {
+      document.getElementById("toggleShield").onclick = function () {
         axios
-          .delete("http://localhost:4000/api/offers/3")
+          .post("http://localhost:4000/api/inventory/toggle/shield")
           .then(function (response) {
-            alert("Offer Deleted");
+            if (response.data.itemEquipped === true) {
+              alert("Shield Equipped");
+              document.getElementById("toggleShield").innerText =
+                "Remove Shield";
+            } else {
+              alert("Shield Added to Inventory");
+              document.getElementById("toggleShield").innerText =
+                "Equip Shield";
+            }
           });
       };
-    </script>
-    <script>
-      document.getElementById("getOfferButton").onclick = function () {
-        axios.get("http://localhost:4000/api/offers").then(function (response) {
-          alert(response.data);
-        });
+      document.getElementById("toggleBow").onclick = function () {
+        axios
+          .post("http://localhost:4000/api/inventory/toggle/bow")
+          .then(function (response) {
+            if (response.data.itemEquipped === true) {
+              alert("Bow Equipped");
+              document.getElementById("toggleBow").innerText = "Remove Bow";
+            } else {
+              alert("Bow Added to Inventory");
+              document.getElementById("toggleBow").innerText = "Equip Bow";
+            }
+          });
+      };
+      document.getElementById("toggleQuiver").onclick = function () {
+        axios
+          .post("http://localhost:4000/api/inventory/toggle/quiver")
+          .then(function (response) {
+            if (response.data.itemEquipped === true) {
+              alert("Quiver Equipped");
+              document.getElementById("toggleQuiver").innerText =
+                "Remove Quiver";
+            } else {
+              alert("Quiver Added to Inventory");
+              document.getElementById("toggleQuiver").innerText =
+                "Equip Quiver";
+            }
+          });
+      };
+      document.getElementById("toggleHelmet").onclick = function () {
+        axios
+          .post("http://localhost:4000/api/inventory/toggle/helmet")
+          .then(function (response) {
+            if (response.data.itemEquipped === true) {
+              alert("Helmet Equipped");
+              document.getElementById("toggleHelmet").innerText =
+                "Remove Helmet";
+            } else {
+              alert("Helmet Added to Inventory");
+              document.getElementById("toggleHelmet").innerText =
+                "Equip Helmet";
+            }
+          });
+      };
+      document.getElementById("getInventory").onclick = function () {
+        axios
+          .get("http://localhost:4000/api/inventory")
+          .then(function (response) {
+            alert(response.data.inventory);
+          });
+      };
+      document.getElementById("deleteInventory").onclick = function () {
+        axios
+          .delete("http://localhost:4000/api/inventory")
+          .then(function (response) {
+            alert("Inventory Deleted");
+          });
       };
     </script>
   </body>

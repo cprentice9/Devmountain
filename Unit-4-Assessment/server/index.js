@@ -43,34 +43,33 @@ app.get("/api/fortune", (req, res) => {
 });
 
 const PORT = 4000;
-const offers = [
-  "greeting card",
-  "wagon",
-  "computer",
-  "table",
-  "chair",
-  "milk",
-  "sailboat",
-  "conditioner",
-  "rusty nail",
-  "desk",
-];
+let inventory = ["sword", "shield", "bow", "quiver", "helmet"];
 
 // const { getHouses, deleteHouse, createHouse, updateHouse } = require("");
 
 app.use(cors());
 app.use(express.json());
 
-app.get("/api/offers", (req, res) => res.status(200).send(offers));
-app.delete("/api/offers/:id", (req, res) => {
-  const id = req.params.id;
-  offers.splice(id, 1);
+app.get("/api/inventory", (req, res) => res.status(200).send({ inventory }));
+app.delete("/api/inventory/", (req, res) => {
+  inventory = [];
   res.sendStatus(204);
 });
-app.post("/api/offers", (req, res) => {
-  offers.push("World");
+app.post("/api/inventory", (req, res) => {
+  inventory.push("World");
   res.sendStatus(201);
 });
-app.put("/api/offers/:id", () => {});
+app.post("/api/inventory/toggle/:itemName", (req, res) => {
+  const item = req.params.itemName;
+  const itemEquipped = inventory.includes(item);
+  if (itemEquipped === true) {
+    const index = inventory.indexOf(item);
+    inventory.splice(index, 1);
+  } else {
+    inventory.push(item);
+  }
+  return res.status(200).send({ itemEquipped: !itemEquipped, item });
+});
+app.put("/api/inventory/:id", () => {});
 
 app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
