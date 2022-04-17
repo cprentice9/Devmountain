@@ -21,8 +21,23 @@ create table posts (
     user_id int not null references users(user_id)
 );
 
+create table upload_video (
+    upload_id serial primary key,
+    user_id int not null references users(user_id),
+    created_date timestamp with time zone not null,
+    title text not null,
+    video_url text not null,
+    "description" text not null
+);
+
 create table updoots (
     updoot_id serial primary key,
+    user_id int not null references users(user_id),
+    post_id int not null references posts(post_id)
+);
+
+create table downdoots (
+    downdoot_id serial primary key,
     user_id int not null references users(user_id),
     post_id int not null references posts(post_id)
 );
