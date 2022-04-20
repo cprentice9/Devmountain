@@ -1,4 +1,4 @@
-data = open('data-python/invoices.csv')
+data = open("data-python/invoices.csv")
 
 
 for row in data:
@@ -30,10 +30,10 @@ y = [10,40,32,84,60,52,18]
 
 data.plot(x, y)
 
-data.xlabel('Day Purchased')
+data.xlabel("Day Purchased")
 
-data.ylabel('Cupcakes Purchased')
+data.ylabel("Cupcakes Purchased")
 
-data.title('My Cupcake Sales')
+data.title("My Cupcake Sales")
 
 data.show()
