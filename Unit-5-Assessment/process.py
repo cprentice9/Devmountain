@@ -1,5 +1,11 @@
 log_file = open("um-server-01.txt") # importing text file 
 
+def orders_over_ten(log_file):
+    for line in log_file:
+        line = line.rstrip()
+        count = line[16:18]
+        if int(count) >= 10:
+            print(line)
 
 def sales_reports(log_file): # defining a function sales_report that takes log_file.
     for line in log_file: # looping through everything in log file and calling it line.
@@ -10,3 +16,4 @@ def sales_reports(log_file): # defining a function sales_report that takes log_f
 
 
 sales_reports(log_file) # call function sales_reports passing in the log file.
+orders_over_ten(log_file)

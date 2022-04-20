@@ -34,7 +34,8 @@ module.exports = {
       .query(
         `select c1.name as city, c1.rating, c1.city_Id, c2.name as country, c2.country_Id
       from cities c1, countries c2
-      where c1.country_Id = c2.country_Id;`
+      where c1.country_Id = c2.country_Id
+      order by c1.rating DESC;`
       )
       .then((dbRes) => res.status(200).send(dbRes[0]))
       .catch((err) => console.log(err));
@@ -70,6 +71,10 @@ module.exports = {
                 rating int,
                 country_id int
             );
+            insert into cities (name, rating, country_Id)
+            values ('Beach Town', 5, 12), 
+            ('Mountain Town', 3, 16), 
+            ('City Town', 1, 13);
 
             insert into countries (name)
             values ('Afghanistan'),
