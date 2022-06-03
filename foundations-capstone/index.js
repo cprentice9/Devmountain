@@ -19,6 +19,8 @@ const answers = [
   "My sources say no.",
   "Outlook not so good.",
   "Very doubtful.",
+  "Is that really what you want to know?",
+  "Why are you the way that you are?",
 ];
 
 window.onload = function () {
