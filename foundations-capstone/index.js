@@ -5,7 +5,9 @@ window.onload = function () {
   const eightball = document.getElementById("eight-ball");
   const question = document.getElementById("question");
   const submitResponseButton = document.getElementById("submitResponseButton");
+  const getResponseButton = document.getElementById("getResponseButton");
   const customResponse = document.getElementById("customResponse");
+  const responseTarget = document.getElementById("responseTarget");
 
   axios.get("http://localhost:4004/responses/").then((res) => {
     res.data.map((answer) => {
@@ -36,6 +38,17 @@ window.onload = function () {
         res.data.map((answer) => {
           answers.push(answer.body);
         });
+      });
+    });
+  });
+
+  getResponseButton.addEventListener("click", function () {
+    axios.get("http://localhost:4004/responses/").then((res) => {
+      res.data.map((answer) => {
+        console.log(responseTarget);
+        let responseCard = `<div><p>${answer.body} </p></div>`;
+        responseTarget.innerHTML += responseCard;
+        console.log(answer.body);
       });
     });
   });

@@ -28,30 +28,6 @@ module.exports = {
       .catch((err) => console.log(err));
   },
 
-  // getCities: (req, res) => {
-  //   sequelize
-  //     .query(
-  //       `select c1.name as city, c1.rating, c1.city_Id, c2.name as country, c2.country_Id
-  //     from cities c1, countries c2
-  //     where c1.country_Id = c2.country_Id
-  //     order by c1.rating DESC;`
-  //     )
-  //     .then((dbRes) => res.status(200).send(dbRes[0]))
-  //     .catch((err) => console.log(err));
-  // },
-
-  // deleteCity: (req, res) => {
-  //   let { id } = req.params;
-  //   sequelize
-  //     .query(
-  //       `
-  //     delete from cities
-  //     where city_Id = ${id};`
-  //     )
-  //     .then((dbRes) => res.status(200).send(dbRes[0]))
-  //     .catch((err) => console.log(err));
-  // },
-
   seed: (req, res) => {
     sequelize
       .query(
