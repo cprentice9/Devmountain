@@ -51,6 +51,12 @@ p#answer {
   width: 400px;
 }
 
+#customResponse {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
 #info {
   font-size: 22px;
 }

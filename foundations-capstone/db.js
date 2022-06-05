@@ -16,17 +16,17 @@ module.exports = {
       .catch((err) => console.log(err));
   },
 
-  // createCity: (req, res) => {
-  //   let { name, rating, countryId } = req.body;
+  createResponse: (req, res) => {
+    let { body } = req.body;
 
-  //   sequelize
-  //     .query(
-  //       `insert into cities (name, rating, country_Id)
-  //     values ('${name}', ${rating}, ${countryId});`
-  //     )
-  //     .then((dbRes) => res.status(200).send(dbRes[0]))
-  //     .catch((err) => console.log(err));
-  // },
+    sequelize
+      .query(
+        `insert into responses (body)
+      values ('${body}');`
+      )
+      .then((dbRes) => res.status(200).send(dbRes[0]))
+      .catch((err) => console.log(err));
+  },
 
   // getCities: (req, res) => {
   //   sequelize

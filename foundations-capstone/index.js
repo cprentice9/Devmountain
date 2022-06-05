@@ -4,6 +4,8 @@ window.onload = function () {
   const answer = document.getElementById("answer");
   const eightball = document.getElementById("eight-ball");
   const question = document.getElementById("question");
+  const submitResponseButton = document.getElementById("submitResponseButton");
+  const customResponse = document.getElementById("customResponse");
 
   axios.get("http://localhost:4004/responses/").then((res) => {
     res.data.map((answer) => {
@@ -19,6 +21,23 @@ window.onload = function () {
       const num = Math.floor(Math.random() * Math.floor(answers.length));
       answer.innerText = answers[num];
     }
+  });
+
+  submitResponseButton.addEventListener("click", function () {
+    console.log(customResponse.value);
+
+    let body = {
+      body: customResponse.value,
+    };
+
+    axios.post("http://localhost:4004/responses/", body).then(() => {
+      axios.get("http://localhost:4004/responses/").then((res) => {
+        answers = [];
+        res.data.map((answer) => {
+          answers.push(answer.body);
+        });
+      });
+    });
   });
 
   let eightballDisplayElem = document.querySelector(".eightball-display");

@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const { seed, getResponses } = require("./db.js");
+const { seed, getResponses, createResponse } = require("./db.js");
 
 app.use(express.json());
 app.use(cors());
@@ -10,6 +10,7 @@ app.use(cors());
 // DEV
 app.get("/seed", seed);
 app.get("/responses", getResponses);
+app.post("/responses", createResponse);
 
 // // COUNTRIES
 // app.get("/countries", getCountries);
