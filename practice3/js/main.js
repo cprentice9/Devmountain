@@ -10,10 +10,16 @@
 //   console.log(i);
 // }
 
-var elementID = document.getElementById("state");
-console.log(elementID);
+function showStuff(el) {
+  var elementID = document.getElementById(el);
+  for (i = 0; i < elementID.length; i++) {
+    console.log(elementID[i].text);
+    console.log(elementID[i].value);
+    console.log(elementID[i].selected);
+  }
+}
 
-for (i = 0; i < elementID.length; i++) {
-  console.log(elementID[i].text);
-  console.log(elementID[i].value);
+function evaluatePage() {
+  showStuff("state");
+  showStuff("home");
 }
