@@ -14,3 +14,7 @@ while (trainNumber <= trainsOperational) {
 for (let trainNumber = 1; trainNumber <= trainsOperational; trainNumber++) {
   console.log("Train #" + trainNumber + " is running!");
 }
+
+for (let number = 5; number > 0; number--) {
+  console.log(number);
+}
