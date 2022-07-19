@@ -131,6 +131,24 @@ h4 {
   border-radius: 20px;
 }
 
+#createButton {
+  margin-top: 30px;
+  padding: 0px;
+  padding-top: 7px;
+  padding-bottom: 0px;
+  width: 190px;
+  height: 60px;
+  font-size: 50px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  text-align: center;
+  margin-bottom: 120px;
+  color: #ffffff;
+  background-color: #5ed4fc;
+  font-weight: 800;
+  border: solid #ffffff;
+  border-radius: 20px;
+}
+
 #pbfb {
   margin-bottom: -50px;
   margin-top: -190px;
