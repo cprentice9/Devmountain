@@ -49,6 +49,30 @@ h4 {
   background-size: 75%;
 }
 
+#content2 {
+  width: 200px;
+  height: 80px;
+  margin: 10% auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "League Spartan", bold;
+  font-weight: 700;
+  border: 8px solid #5ed4fc;
+  padding-top: 25px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#content3 {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+}
+
 #inputBox {
   margin: 20px;
   padding: 10px;
@@ -65,7 +89,7 @@ h4 {
   margin-top: 5px;
   border: 8px solid #5ed4fc;
   background-color: rgb(203, 203, 203);
-  margin-left: -45%;
+  margin-left: -41%;
 }
 
 #inputBox3 {
@@ -75,7 +99,18 @@ h4 {
   margin-top: 5px;
   border: 8px solid #5ed4fc;
   background-color: rgb(203, 203, 203);
-  margin-right: -45%;
+  margin-right: -41%;
+}
+
+#inputBoxAM {
+  margin: 20px;
+  padding: 10px;
+  height: 100px;
+  width: 400px;
+  margin-top: 5px;
+  border: 8px solid #5ed4fc;
+  background-color: rgb(203, 203, 203);
+  text-align: justify left;
 }
 
 #nextButton {
@@ -88,10 +123,23 @@ h4 {
   font-size: 50px;
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 120px;
   color: #ffffff;
   background-color: #5ed4fc;
   font-weight: 800;
   border: solid #ffffff;
   border-radius: 20px;
+}
+
+#pbfb {
+  margin-bottom: -50px;
+  margin-top: -190px;
+  margin-left: 60px;
+}
+
+#pfp {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 0px;
+  border: 8px solid #5ed4fc;
 }
