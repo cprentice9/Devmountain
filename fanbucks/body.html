@@ -1,0 +1,22 @@
+<body>
+    <div id="content">
+      <h1>SIGN UP</h1>
+      <h2>EMAIL ADDRESS</h2>
+      <input type="email" id="inputBox" placeholder="Enter Email Here" />
+      <h3>COUNTRY CODE</h3>
+      <input type="text" id="inputBox2" placeholder="Country Code" />
+      <input type="text" id="question" placeholder="Enter Question Here" />
+      <div id="eight-ball" class="eight-ball">
+        <div class="answer">
+          <p id="eight">8</p>
+          <p id="answer"></p>
+      </div>
+    </div>
+    <input type="text" id="customResponse" placeholder="Enter Your Own Response Here" />
+    <button type="button" id="submitResponseButton" >Enter Your Response</button>
+    <button type="button" id="getResponseButton" >View All Responses</button>
+    <h1 class="eightball-display">(..)</h1>
+    <div id="responseTarget"></div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>

@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "League Spartan", bold;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+  letter-spacing: -6px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.8em;
+  letter-spacing: -2px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.8em;
+  letter-spacing: -2px;
+  padding-top: 10px;
+  margin-left: -50%;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 1.8em;
+  letter-spacing: -2px;
+  padding-top: 10px;
+  margin-right: -50%;
+  margin-top: -109px;
+}
+
+#content {
+  width: 500px;
+  margin: 10% auto;
+  margin-top: 50px;
+  border: 1px dotted black;
+  text-align: center;
+  font-family: "League Spartan", bold;
+  font-weight: 700;
+  border: 5px solid black;
+  padding-top: 25px;
+  background-image: url(bgwp.png);
+  background-size: 75%;
+}
+
+#inputBox {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+  margin-top: 5px;
+  border: 8px solid #5ed4fc;
+  background-color: rgb(203, 203, 203);
+}
+
+#inputBox2 {
+  margin: 20px;
+  padding: 10px;
+  width: 175px;
+  margin-top: 5px;
+  border: 8px solid #5ed4fc;
+  background-color: rgb(203, 203, 203);
+  margin-left: -45%;
+}
+
+#inputBox3 {
+  margin: 20px;
+  padding: 10px;
+  width: 175px;
+  margin-top: 5px;
+  border: 8px solid #5ed4fc;
+  background-color: rgb(203, 203, 203);
+  margin-right: -45%;
+}
+
+#nextButton {
+  margin-top: 30px;
+  padding: 0px;
+  padding-top: 7px;
+  padding-bottom: 0px;
+  width: 150px;
+  height: 60px;
+  font-size: 50px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #5ed4fc;
+  font-weight: 800;
+  border: solid #ffffff;
+  border-radius: 20px;
+}
