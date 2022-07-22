@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>FANBUCKS Leaderboard</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="leaderboard.css" />
@@ -17,8 +17,10 @@
   <body>
     <div class="leaderboard">
       <header>
-        <h1>Live Leaderboard</h1>
-        <img src="rnrcup.png" width="500" height="600" />
+        <!-- <h1>Live Leaderboard</h1> -->
+        <img id="bracket" src="bracket.png" />
+        <img id="liveLeaderboard" src="liveleaderboard.png" />
+        <button type="button" name="searchButton" id="searchButton">SEARCH<br />
       </header>
       <table>
         <thead>
@@ -31,43 +33,50 @@
         </thead>
         <tbody>
           <tr>
+            <button type="button" name="voteButton" id="voteButton">VOTE<br />
             <td class="rank">1</td>
             <td class="name">Eminem</td>
             <td class="tv">22</td>
             <td class="vb">0</td>
           </tr>
           <tr>
+            <button type="button" name="voteButton2" id="voteButton2">VOTE<br />
             <td class="rank">2</td>
             <td class="name">Nas</td>
             <td class="tv">14</td>
             <td class="vb">8</td>
           </tr>
           <tr>
-            <td class="rank">4</td>
+            <button type="button" name="voteButton3" id="voteButton3">VOTE<br />
+            <td class="rank">3</td>
             <td class="name">Andre 3000</td>
             <td class="tv">13</td>
             <td class="vb">9</td>
           </tr>
           <tr>
-            <td class="rank">5</td>
+            <button type="button" name="voteButton4" id="voteButton4">VOTE<br />
+            <td class="rank">4</td>
             <td class="name">Ghostface Killah</td>
             <td class="tv">11</td>
             <td class="vb">11</td>
           </tr>
           <tr>
-            <td class="rank">6</td>
+            <button type="button" name="voteButton5" id="voteButton5">VOTE<br />
+            <td class="rank">5</td>
             <td class="name">Kendrick Lamar</td>
             <td class="tv">8</td>
             <td class="vb">14</td>
           </tr>
           <tr>
-            <td class="rank">7</td>
+            <button type="button" name="voteButton6" id="voteButton6">VOTE<br />
+            <td class="rank">6</td>
             <td class="name">Lil Wayne</td>
             <td class="tv">7</td>
             <td class="vb">15</td>
           </tr>
           <tr>
-            <td class="rank">8</td>
+            <button type="button" name="voteButton7" id="voteButton7">VOTE<br />
+            <td class="rank">7</td>
             <td class="name">Jay-Z</td>
             <td class="tv">3</td>
             <td class="vb">19</td>
