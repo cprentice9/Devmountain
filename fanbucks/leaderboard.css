@@ -31,13 +31,15 @@ header {
 }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 2rem;
   line-height: 5rem;
   position: absolute;
-  margin-left: 1rem;
+  margin-left: 9.8rem;
+  margin-top: 85px;
   top: 10rem;
   color: #000;
   text-shadow: 0 0 3px #5ed4fc, 0 0 5px #000000;
+  letter-spacing: 1px;
 }
 
 img {
