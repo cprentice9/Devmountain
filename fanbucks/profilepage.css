@@ -149,12 +149,12 @@ span {
 
 #tBox {
   width: 96.1%;
-  height: 200px;
+  height: 300px;
   padding: 10px;
   margin-left: -4px;
   background-image: url(twitbg.jpg);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
   border: 4px solid black;
 }
@@ -262,7 +262,7 @@ span {
 
 #content4 {
   width: 500px;
-  height: 1500px;
+  height: 1600px;
   margin: 10% auto;
   margin-top: 22px;
   margin-left: -5px;
@@ -307,8 +307,7 @@ span {
 }
 
 #pbfb {
-  margin-bottom: -50px;
-  margin-top: -190px;
+  width: 100%;
   margin-left: 60px;
 }
 
@@ -327,10 +326,10 @@ span {
   margin-right: -325px;
 }
 
-#phresher {
+#pfp {
   margin-bottom: -50px;
   margin-top: -50px;
-  margin-left: -150.5px;
+  margin-left: -35px;
   border: 8px solid #ffffff;
 }
 
