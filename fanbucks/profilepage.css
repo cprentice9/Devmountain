@@ -12,6 +12,23 @@ h1 {
   text-shadow: 0 0 10px #5ed4fc, 0 0 10px #5ed4fc;
 }
 
+#qualify {
+  border: 4px solid black;
+  background-color: #5ed4fc;
+  color: red;
+  width: 150px;
+  margin-left: 172px;
+  padding-top: 7px;
+  margin-top: 10px;
+}
+
+#timer {
+  color: greenyellow;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+  margin-top: 30px;
+}
+
 h2 {
   font-weight: 700;
   font-size: 1.8em;
@@ -19,6 +36,10 @@ h2 {
   padding-top: 10px;
   text-align: center;
   margin-top: 20px;
+}
+
+#vb {
+  margin-top: 350px;
 }
 
 h3 {
@@ -46,6 +67,65 @@ span {
   text-shadow: 0 0 10px #000000, 0 0 10px #000000;
 }
 
+[data-ribbon] {
+  position: relative;
+  display: inline-block;
+
+  background: #ee5b25;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+[data-ribbon]:after {
+  content: attr(data-ribbon);
+  position: absolute;
+  text-align: center;
+  line-break: 28px;
+  line-height: 12px;
+  top: 10px;
+  margin-top: -60px;
+  margin-left: 64.5px;
+  height: 0;
+  border-bottom: 25px solid #ee5b25;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  transform: rotate(45deg);
+  margin-right: -180px;
+  width: 60px;
+  padding-top: 29px;
+}
+
+[data-ribbon2] {
+  position: relative;
+  display: inline-block;
+
+  background: #ee5b25;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+[data-ribbon2]:after {
+  content: attr(data-ribbon2);
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+  top: 10px;
+  margin-top: -60px;
+  margin-left: 69px;
+  height: 0;
+  border-bottom: 25px solid #ee5b25;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  transform: rotate(45deg);
+  margin-right: -180px;
+  width: 60px;
+  padding-top: 29px;
+}
+
 #wBox {
   border: 8px solid #5ed4fc;
   width: 465px;
@@ -68,6 +148,21 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+#ll2 {
+  width: 100%;
+  margin-top: -300px;
+}
+
+#ua {
+  width: 100%;
+  margin-top: -850px;
+}
+
+#bracketImage {
+  width: 100%;
+  margin-top: -650px;
 }
 
 #content {
@@ -103,7 +198,7 @@ span {
 
 #content4 {
   width: 500px;
-  height: 1500px;
+  height: 1100px;
   margin: 10% auto;
   margin-top: -122px;
   border: 1px dotted black;
@@ -175,9 +270,6 @@ span {
 
 #twitch {
   margin-top: 20px;
-}
-
-#other {
 }
 
 #opf p {
