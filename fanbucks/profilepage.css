@@ -9,17 +9,30 @@ h1 {
   font-size: 5em;
   letter-spacing: -6px;
   color: #ffffff;
-  text-shadow: 0 0 10px #5ed4fc, 0 0 10px #5ed4fc;
+  text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+  background-size: 1700%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #qualify {
-  border: 4px solid black;
-  background-color: #5ed4fc;
-  color: red;
-  width: 150px;
-  margin-left: 172px;
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+  width: 170px;
   padding-top: 7px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: -5px;
+}
+
+#rank {
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+  width: 170px;
+  padding-top: 7px;
+  margin-left: 295px;
+  margin-top: -88px;
 }
 
 #timer {
@@ -44,10 +57,9 @@ h2 {
 
 h3 {
   font-weight: 700;
-  font-size: 4.4em;
-  letter-spacing: -2px;
-  margin-top: 25px;
-  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-left: -300px;
 }
 
 h4 {
@@ -58,8 +70,17 @@ h4 {
   text-shadow: 0 0 10px #000000, 0 0 10px #000000;
 }
 
+h5 {
+  font-size: 2.5em;
+  margin-top: 5px;
+  color: white;
+  text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+}
+
 p {
   margin-top: 20px;
+  color: white;
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
 }
 
 span {
@@ -126,6 +147,18 @@ span {
   padding-top: 29px;
 }
 
+#tBox {
+  width: 96.1%;
+  height: 200px;
+  padding: 10px;
+  margin-left: -4px;
+  background-image: url(twitbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 4px solid black;
+}
+
 #wBox {
   border: 8px solid #5ed4fc;
   width: 465px;
@@ -136,6 +169,34 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+#sBox {
+  border: 8px solid #5ed4fc;
+  width: 465px;
+  height: 120px;
+  padding: 10px;
+  margin-top: -10px;
+  background-image: url(bgwp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#ranked {
+  margin-left: 300px;
+  margin-top: -142.5px;
+  padding-bottom: 110px;
+}
+
+#uat {
+  width: 100%;
+  margin-top: -50px;
+}
+
+#rnrcup {
+  margin-top: -120px;
+  margin-bottom: 20px;
 }
 
 #gpBox {
@@ -162,7 +223,10 @@ span {
 
 #bracketImage {
   width: 100%;
-  margin-top: -650px;
+  margin-top: -1200px;
+  margin-bottom: 70px;
+  z-index: 10;
+  position: relative;
 }
 
 #content {
@@ -176,8 +240,8 @@ span {
   font-weight: 700;
   border: 5px solid black;
   padding-top: 25px;
-  background-image: url(bbg.jpg);
-  background-size: cover;
+  background-image: url(bbg.png);
+  background-size: 1700%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -198,17 +262,24 @@ span {
 
 #content4 {
   width: 500px;
-  height: 1100px;
+  height: 1500px;
   margin: 10% auto;
-  margin-top: -122px;
+  margin-top: 22px;
+  margin-left: -5px;
   border: 1px dotted black;
   text-align: center;
   font-family: "League Spartan", bold;
   font-weight: 700;
   border: 5px solid black;
   padding-top: 25px;
+  background-image: url(bbg.png);
+  background-size: 2200%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#content5 {
   background-image: url(bgwp.png);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -226,7 +297,7 @@ span {
   color: #ffffff;
   background-color: #000000;
   font-weight: 800;
-  border: solid #ffffff;
+  border: solid #ffffff 0.2px;
   border-radius: 20px;
   float: left;
 }
@@ -259,13 +330,17 @@ span {
 #phresher {
   margin-bottom: -50px;
   margin-top: -50px;
-  margin-left: -151px;
-  border: 8px solid #5ed4fc;
+  margin-left: -150.5px;
+  border: 8px solid #ffffff;
 }
 
 #shaq {
-  border: 8px solid #5ed4fc;
-  margin-top: -8px;
+  width: 101%;
+  margin-top: -515px;
+  margin-bottom: 250px;
+  z-index: 0;
+  margin-left: -2px;
+  position: relative;
 }
 
 #twitch {
@@ -278,4 +353,11 @@ span {
 
 #other p {
   font-size: 1.5em;
+}
+
+#title {
+  background-image: url(bbg.png);
+  background-size: 1700%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
