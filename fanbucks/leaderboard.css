@@ -12,6 +12,64 @@
   box-shadow: 2px 2px 16px 1px #aaa;
   text-align: right;
   border: 2px solid #000000;
+  height: 47.35rem;
+}
+
+#liveLeaderboard {
+  height: 1200px;
+  width: 100%;
+  position: static;
+  bottom: 0;
+  right: 0rem;
+  margin-top: -790px;
+  z-index: 3;
+}
+
+#bracket {
+  height: 1000px;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  right: 0rem;
+  margin-top: -290px;
+  z-index: 1;
+  margin-left: 0px;
+}
+
+#header {
+  background-color: #0c85cc;
+  position: relative;
+  z-index: -1;
+}
+
+#timer {
+  font-size: 35px;
+  color: black;
+  margin-right: 550px;
+  margin-top: -825px;
+  padding-top: 10px;
+  position: static;
+  z-index: 3;
+}
+
+#searchButton {
+  margin-top: -40px;
+  margin-left: -155px;
+  padding: 0px;
+  padding-top: 6px;
+  padding-bottom: 0px;
+  width: 150px;
+  height: 40px;
+  font-size: 30px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: 800;
+  border: solid #ffffff;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 3;
 }
 
 a {
@@ -51,51 +109,9 @@ img {
   margin-right: 43%;
 }
 
-#liveLeaderboard {
-  height: 1200px;
-  width: 100%;
-  position: static;
-  bottom: 0;
-  right: 0rem;
-  margin-top: -910px;
-  margin-left: -80px;
-  z-index: 1;
-}
-
-#bracket {
-  height: 1000px;
-  width: 70%;
-  position: sticky;
-  bottom: 0;
-  right: 0rem;
-  margin-top: -270px;
-  z-index: -1;
-  margin-left: 120px;
-}
-
-#searchButton {
-  margin-top: -720px;
-  margin-left: -150px;
-  padding: 0px;
-  padding-top: 6px;
-  padding-bottom: 0px;
-  width: 150px;
-  height: 40px;
-  font-size: 30px;
-  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
-  text-align: center;
-  color: #ffffff;
-  background-color: #000000;
-  font-weight: 800;
-  border: solid #ffffff;
-  border-radius: 20px;
-  position: absolute;
-  z-index: 1;
-}
-
 #voteButton {
   margin-top: 62px;
-  margin-left: -260px;
+  margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 0px;
@@ -115,7 +131,7 @@ img {
 
 #voteButton2 {
   margin-top: 112px;
-  margin-left: -260px;
+  margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 0px;
@@ -135,7 +151,7 @@ img {
 
 #voteButton3 {
   margin-top: 161px;
-  margin-left: -260px;
+  margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 0px;
@@ -155,7 +171,7 @@ img {
 
 #voteButton4 {
   margin-top: 210px;
-  margin-left: -260px;
+  margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 0px;
@@ -175,7 +191,7 @@ img {
 
 #voteButton5 {
   margin-top: 258px;
-  margin-left: -260px;
+  margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 0px;
@@ -195,7 +211,7 @@ img {
 
 #voteButton6 {
   margin-top: 308px;
-  margin-left: -260px;
+  margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 0px;
@@ -215,7 +231,7 @@ img {
 
 #voteButton7 {
   margin-top: 356px;
-  margin-left: -260px;
+  margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 0px;
@@ -309,6 +325,12 @@ tbody tr:nth-child(2n) {
 .vb {
   width: 8ch;
   border: 2px solid #000000;
+}
+
+.vote {
+  width: 15ch;
+  border: 2px solid #000000;
+  text-align: center;
 }
 
 th {
