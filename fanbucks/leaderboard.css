@@ -12,17 +12,17 @@
   box-shadow: 2px 2px 16px 1px #aaa;
   text-align: right;
   border: 2px solid #000000;
-  height: 47.35rem;
+  height: 47rem;
 }
 
 #liveLeaderboard {
-  height: 1200px;
-  width: 100%;
-  position: static;
+  height: 60%;
+  width: 60%;
+  position: absolute;
   bottom: 0;
-  right: 0rem;
-  margin-top: -790px;
   z-index: 3;
+  margin-bottom: 215px;
+  margin-right: 170px;
 }
 
 #bracket {
@@ -31,7 +31,7 @@
   position: sticky;
   bottom: 0;
   right: 0rem;
-  margin-top: -290px;
+  margin-top: -240px;
   z-index: 1;
   margin-left: 0px;
 }
@@ -45,15 +45,15 @@
 #timer {
   font-size: 35px;
   color: black;
-  margin-right: 550px;
-  margin-top: -825px;
+  margin-right: 280px;
+  margin-top: -450px;
   padding-top: 10px;
   position: static;
   z-index: 3;
 }
 
 #searchButton {
-  margin-top: -40px;
+  margin-top: -55px;
   margin-left: -155px;
   padding: 0px;
   padding-top: 6px;
@@ -89,14 +89,14 @@ header {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 5rem;
   position: absolute;
-  margin-left: 9.8rem;
-  margin-top: 85px;
+  margin-left: 200px;
+  margin-top: 105px;
   top: 10rem;
-  color: #000;
-  text-shadow: 0 0 3px #5ed4fc, 0 0 5px #000000;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
   letter-spacing: 1px;
 }
 
@@ -210,7 +210,7 @@ img {
 }
 
 #voteButton6 {
-  margin-top: 308px;
+  margin-top: 306px;
   margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
@@ -230,7 +230,7 @@ img {
 }
 
 #voteButton7 {
-  margin-top: 356px;
+  margin-top: 354px;
   margin-left: -120px;
   padding: 0px;
   padding-top: 6px;
@@ -277,7 +277,7 @@ nav a + a {
 }
 
 table {
-  background-color: #cbc2c2;
+  background-color: #5ed4fc;
   color: #555;
   width: 100%;
   border-collapse: collapse;
@@ -301,7 +301,7 @@ tbody .name {
 }
 
 tbody tr:nth-child(2n) {
-  background-color: #5ed4fc;
+  background-color: #cbc2c2;
 }
 
 .name {
