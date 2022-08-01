@@ -8,6 +8,8 @@ h1 {
   font-weight: 700;
   font-size: 5em;
   letter-spacing: -6px;
+  color: white;
+  text-shadow: 0 0 6px #000000, 0 0 6px #000000;
 }
 
 h2 {
@@ -16,6 +18,8 @@ h2 {
   letter-spacing: -2px;
   padding-top: 10px;
   text-align: center;
+  color: white;
+  text-shadow: 0 0 6px #000000, 0 0 6px #000000;
 }
 
 h3 {
@@ -24,6 +28,8 @@ h3 {
   letter-spacing: -2px;
   padding-top: 10px;
   margin-left: -50%;
+  color: white;
+  text-shadow: 0 0 6px #000000, 0 0 6px #000000;
 }
 
 h4 {
@@ -33,6 +39,41 @@ h4 {
   padding-top: 10px;
   margin-right: -50%;
   margin-top: -109px;
+  color: white;
+  text-shadow: 0 0 6px #000000, 0 0 6px #000000;
+}
+
+span {
+  color: #ee5b25;
+}
+
+#bracket {
+  height: 100%;
+  width: 100%;
+  position: static;
+  bottom: 0;
+  right: 0rem;
+  margin-top: -260px;
+  margin-bottom: -390px;
+  z-index: 1;
+  margin-left: 0px;
+}
+
+#bracket2 {
+  height: 100%;
+  width: 100%;
+  position: static;
+  bottom: 0;
+  right: 0rem;
+  margin-top: -250px;
+  margin-bottom: -390px;
+  z-index: 1;
+  margin-left: 0px;
+}
+
+#musicIcons {
+  margin-top: -35px;
+  margin-bottom: -20px;
 }
 
 #content {
@@ -45,8 +86,10 @@ h4 {
   font-weight: 700;
   border: 5px solid black;
   padding-top: 25px;
-  background-image: url(bgwp.png);
+  background-color: #0c85cc;
+  /* background-image: url(bgwallpaper.png); */
   background-size: 75%;
+  position: sticky;
 }
 
 #content2 {
@@ -57,7 +100,7 @@ h4 {
   text-align: center;
   font-family: "League Spartan", bold;
   font-weight: 700;
-  border: 8px solid #5ed4fc;
+  border: 8px solid #ee5b25;
   padding-top: 25px;
   background-color: #ffffff;
   margin-bottom: 20px;
@@ -78,7 +121,7 @@ h4 {
   padding: 10px;
   width: 400px;
   margin-top: 5px;
-  border: 8px solid #5ed4fc;
+  border: 8px solid #ee5b25;
   background-color: rgb(203, 203, 203);
 }
 
@@ -87,7 +130,7 @@ h4 {
   padding: 10px;
   width: 175px;
   margin-top: 5px;
-  border: 8px solid #5ed4fc;
+  border: 8px solid #ee5b25;
   background-color: rgb(203, 203, 203);
   margin-left: -41%;
 }
@@ -97,7 +140,7 @@ h4 {
   padding: 10px;
   width: 175px;
   margin-top: 5px;
-  border: 8px solid #5ed4fc;
+  border: 8px solid #ee5b25;
   background-color: rgb(203, 203, 203);
   margin-right: -41%;
 }
@@ -108,7 +151,7 @@ h4 {
   height: 100px;
   width: 400px;
   margin-top: 5px;
-  border: 8px solid #5ed4fc;
+  border: 8px solid #ee5b25;
   background-color: rgb(203, 203, 203);
   text-align: justify left;
 }
@@ -125,7 +168,7 @@ h4 {
   text-align: center;
   margin-bottom: 120px;
   color: #ffffff;
-  background-color: #5ed4fc;
+  background-color: #ee5b25;
   font-weight: 800;
   border: solid #ffffff;
   border-radius: 20px;
@@ -143,7 +186,7 @@ h4 {
   text-align: center;
   margin-bottom: 120px;
   color: #ffffff;
-  background-color: #5ed4fc;
+  background-color: #ee5b25;
   font-weight: 800;
   border: solid #ffffff;
   border-radius: 20px;
@@ -152,12 +195,18 @@ h4 {
 #pbfb {
   margin-bottom: -50px;
   margin-top: -190px;
-  margin-left: 60px;
+  margin-left: -75px;
+}
+
+#pbfb2 {
+  margin-bottom: -50px;
+  margin-top: -190px;
+  margin-left: -60px;
 }
 
 #pfp {
   margin-bottom: 20px;
   margin-top: 10px;
   margin-left: 0px;
-  border: 8px solid #5ed4fc;
+  border: 8px solid #ee5b25;
 }

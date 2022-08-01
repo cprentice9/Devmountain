@@ -46,10 +46,11 @@
   font-size: 35px;
   color: black;
   margin-right: 280px;
-  margin-top: -450px;
+  margin-top: -60px;
   padding-top: 10px;
   position: static;
   z-index: 3;
+  text-shadow: 0 0 3px #ee5b25, 0 0 5px #ee5b25;
 }
 
 #searchButton {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <title>FANBUCKS Profile</title>
+    <title>FANBUCKS Sign Up</title>
     <link rel="stylesheet" href="signup.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,34 +12,24 @@
   </head>
   <body>
     <div id="content">
-      <h1>YOUR PROFILE</h1>
-      <div id="content2">
-        <div id="content3">
-                <legend>PICK ONLY ONE:</legend>
-            
-                <div>
-                  <input type="radio" id="artist" name="drone" value="huey"
-                         checked>
-                  <label for="artist">Artist</label>
-                </div>
-            
-                <div>
-                  <input type="radio" id="producer" name="drone" value="dewey">
-                  <label for="producer">Producer</label>
-                </div>
-        </div>
-      </div>
+      <h1><span>ARTIST</span> PROFILE</h1>
+      <img id="bracket2" src="bracketimage.png" style="background-position: absolute; z-index: -1;" />
       <form>
         <label><h2>ARTIST NAME</h2></label>
         <input type="text" name="text" id="inputBox" placeholder="Enter Artist Name Here!"/><br />
         <label><h2>UPLOAD PROFILE PIC</h2></label>
-        <img src="pfp.png" name= "pfp" id="pfp"  width="175" height="175"/><br />
+        <!-- <img src="pfp.png" name= "pfp" id="pfp"  width="175" height="175"/><br /> -->
         <input type="file" name="file" id="inputBox" /><br />
-        <label><h2>ABOUT ME</h2></label>
+        <h2>WHAT IS YOUR ENTRY SONG?</h2><br />
+        <img src="musicicons.png" id="musicIcons" height="100" /> <br />
+        <input type="text" name="text" id="inputBox" placeholder="LINK TO YOUR MUSIC"/><br />
+        <h2>SO WE CAN TAG YOU!</h2><br />
+        <input type="text" name="text" id="inputBox" placeholder="@INSTAGRAM"/><br />
+        <label><h2>A MESSAGE TO YOUR FANS</h2></label>
 
-<textarea id="inputBoxAM" name="aboutMe" rows="20" cols="70" >Start with what city you're from and what is unique about your music...</textarea>
-        <button type="button" name="createButton" id="createButton">CREATE<br />
-        <img src="pbfb.png" name= "pbfb" id="pbfb" alt="Powered by FANBUCKS" width="300" height="550"/><br />
+<textarea id="inputBoxAM" name="aboutMe" rows="20" cols="70" placeholder="What would it mean to you to win this competition? Let them know..." ></textarea>
+        <button type="button" name="createButton" id="createButton">SUBMIT<br />
+        <img src="pbfb.png" name= "pbfb2" id="pbfb2" alt="Powered by FANBUCKS" width="300" height="550"/><br />
       </form>
     </div>
     <script src="index.js"></script>
