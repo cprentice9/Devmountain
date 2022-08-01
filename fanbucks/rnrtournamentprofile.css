@@ -96,6 +96,17 @@ span {
   text-shadow: 0 0 10px #000000, 0 0 10px #000000;
 }
 
+#inputBoxAM {
+  margin: 20px;
+  padding: 10px;
+  height: 100px;
+  width: 400px;
+  margin-top: 5px;
+  border: 8px solid #ee5b25;
+  background-color: rgb(203, 203, 203);
+  text-align: justify left;
+}
+
 [data-ribbon] {
   position: relative;
   display: inline-block;
