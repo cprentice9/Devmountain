@@ -1,0 +1,24 @@
+{
+  "name": "node-chat",
+  "version": "1.0.0",
+  "description": "Node 1 - Afternoon",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devlemire/node-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devlemire/node-chat/issues"
+  },
+  "homepage": "https://github.com/devlemire/node-chat#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
