@@ -14,48 +14,48 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses. Paperback."
-            price={11.96}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+            title="Monster Jam, Official Grave Digger Monster Truck, Die-Cast Vehicle, 1:24 Scale"
+            price={30.86}
+            image="https://m.media-amazon.com/images/I/81cOFkiQFeL._AC_SL1500_.jpg"
             rating={5}
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Liter Glass Bowl"
-            price={239}
-            image="https://dam.kenwoodworld.com/562x468/assets/144447"
-            rating={4}
+            title="Sigma 150-600mm 5-6.3 Contemporary DG OS HSM Lens for Canon"
+            price={865}
+            image="https://m.media-amazon.com/images/I/81o6z3YrNZL._AC_SL1500_.jpg"
+            rating={3}
           />
         </div>
         <div className="home__row">
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor "
-            price={199.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
-            rating={3}
+            title="Fitbit Charge 5 Advanced Fitness & Health Tracker with Built-in GPS, Stress Management Tools, Sleep Tracking, 24/7 Heart Rate and More, Black/Graphite, One Size (S &L Bands Included)"
+            price={119.99}
+            image="https://m.media-amazon.com/images/I/41iag5vRGVL._AC_SX679_.jpg"
+            rating={4}
           />
           <Product
             id="23445930"
-            title="Amazon Echo (3rd Generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
-            rating={5}
+            title="Developer Programming Stickers, Internet Software Stickers, Programmers Sticker Pack (50pcs), Waterproof Vinyl Sticker for Water Bottle, Mug, Luggage, Laptop, Engineers, Hackers, Geeks, Coders"
+            price={8.58}
+            image="https://m.media-amazon.com/images/I/71u7sS3KXDL._AC_SL1100_.jpg"
+            rating={2}
           />
           <Product
             id="12321341"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={598.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
-            rating={4}
+            title="Google Pixel 6 - 5G Android Phone - Unlocked Smartphone with Wide and Ultrawide Lens - 128GB - Sorta Seafoam"
+            price={499.99}
+            image="https://m.media-amazon.com/images/I/71QQZr2pNSL._AC_SL1500_.jpg"
+            rating={5}
           />
         </div>
         <div className="home__row">
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor "
-            price={199.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            title="SAMSUNG 65-Inch Class OLED 4K S95B Series Quantum HDR, Dolby Atmos, Object Tracking Sound, Laser Slim Design, Smart TV with Alexa Built-In (QN65S95BAFXZA, 2022 Model)"
+            price={2197.99}
+            image="https://m.media-amazon.com/images/I/81tmsk6LYiL._AC_SL1500_.jpg"
             rating={3}
           />
         </div>
