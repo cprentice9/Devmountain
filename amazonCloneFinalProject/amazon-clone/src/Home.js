@@ -53,8 +53,8 @@ function Home() {
         <div className="home__row">
           <Product
             id="4903850"
-            title="SAMSUNG 65-Inch Class OLED 4K S95B Series Quantum HDR, Dolby Atmos, Object Tracking Sound, Laser Slim Design, Smart TV with Alexa Built-In (QN65S95BAFXZA, 2022 Model)"
-            price={2197.99}
+            title="SAMSUNG 65-Inch Class OLED 4K S95B Series Quantum HDR Smart TV with Alexa Built-In"
+            price={999.99}
             image="https://m.media-amazon.com/images/I/81tmsk6LYiL._AC_SL1500_.jpg"
             rating={3}
           />
