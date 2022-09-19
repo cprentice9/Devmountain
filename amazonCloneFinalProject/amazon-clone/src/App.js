@@ -38,7 +38,7 @@ function App() {
           <Route path="/login" element={[<Login />]} />
 
           <Route path="/checkout" element={[<Header />, <Checkout />]} />
-          <Route path="/payment" element={[<Header />, <Payment />, <h1>I am the payment route</h1>]} />
+          <Route path="/payment" element={[<Header />, <Payment />]} />
         </Routes>
       </div>
     </Router>
